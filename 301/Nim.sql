@@ -1,14 +1,24 @@
---Problem 310
+--Problem 301
+/*
+Nim is a game played with heaps of stones, where two players take it in turn to remove any number of stones from any heap until no stones remain.
 
---Nim Square
+We'll consider the three-heap normal-play version of Nim, which works as follows:
+- At the start of the game there are three heaps of stones.
+- On his turn the player removes any positive number of stones from any single heap.
+- The first player unable to move (because no stones remain) loses.
 
---Alice and Bob play the game Nim Square.
---Nim Square is just like ordinary three-heap normal play Nim, 
---but the players may only remove a square number of stones from a heap.
---The number of stones in the three heaps is represented by the ordered triple (a,b,c).
---If 0<=a<=b<=c<=29 then the number of losing positions for the next player is 1160. 
+If (n1,n2,n3) indicates a Nim position consisting of heaps of size n1, n2 and n3 then there is a simple function X(n1,n2,n3) — that you may look up or attempt to deduce for yourself — that returns:
 
---Find the number of losing positions for the next player if 0<=a<=b<=c<=100000. 
+zero if, with perfect strategy, the player about to move will eventually lose; or
+non-zero if, with perfect strategy, the player about to move will eventually win.
+For example X(1,2,3) = 0 because, no matter what the current player does, his opponent can respond with a move that leaves two heaps of equal size, at which point every move by the current player can be mirrored by his opponent until no stones remain; so the current player loses. To illustrate:
+- current player moves to (1,2,1)
+- opponent moves to (1,0,1)
+- current player moves to (0,0,1)
+- opponent moves to (0,0,0), and so wins.
+
+For how many positive integers n ≤ 230 does X(n,2n,3n) = 0 ?
+*/
 
 with
 num as
