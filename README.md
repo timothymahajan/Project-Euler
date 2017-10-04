@@ -10,3 +10,10 @@ Solutions to project Euler problems.
 | Problem 5  | Smallest Multiple | 232792560 | [Solution](https://github.com/timothymahajan/Project-Euler/blob/master/005/Smallest_Multiple.py) |
 | Problem 6  | Sum Square Difference | 25164150 | [Solution](https://github.com/timothymahajan/Project-Euler/blob/master/006/Sum_Square_Difference.py) | [Solution](https://github.com/timothymahajan/Project-Euler/blob/master/006/Sum_Square_Differences.sql)
 | Problem 7  | 10001st Prime | 104743 | [Solution](https://github.com/timothymahajan/Project-Euler/blob/master/007/10001st_Prime.py) |
+| Problem 8  | Largest Product in a Series | 23514624000 | [Solution](https://github.com/timothymahajan/Project-Euler/blob/master/008/Largest_Product_In_A_Series.py) |
+| Problem 9  | Special Pythagorean Triplet | 31875000 | [Solution](https://github.com/timothymahajan/Project-Euler/blob/master/009/Special_Pythagorean_Triplet.py) |
+| Problem 10  | Summation of Primes | | |
+| Problem 11  | Largest Product in a Grid | | |
+| Problem 12  | Highly Divisible Triangular Number | | |
+| Problem 13  | Large Sum | | |
+| Problem 14  | Longest Collatz Sequence | 837799 | [Solution](https://github.com/timothymahajan/Project-Euler/blob/master/014/Longest_Collatz_Sequence.py) |
