@@ -3,5 +3,5 @@ Solutions to project Euler problems.
 
 | Problem  | Python | T-SQL |
 | ------------- | ------------- | ------------- |
-| Problem 1  | (docs/Multiples_Of_Three_And_Five.py)  |
+| Problem 1  | [Multiples of 3 and 5](https://github.com/timothymahajan/Project-Euler/blob/master/001/Multiples_Of_Three_And_Five.py)  |
 | Content Cell  | Content Cell  |
