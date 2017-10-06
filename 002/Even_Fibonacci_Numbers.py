@@ -6,7 +6,7 @@
 #By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
 seqList = list(range(1,3))
-def fibonnaci (max):
+def fibonacci (max):
     counter1 = 0
     counter2 = 1
     while(seqList[counter2] < max):
@@ -23,4 +23,4 @@ def findSum (list):
             sum = sum + list[i]
     return sum
 
-#print(findSum(fibonnaci(4000000)))
+#print(findSum(fibonacci(4000000)))
