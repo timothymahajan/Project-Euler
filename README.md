@@ -17,4 +17,3 @@ Solutions to project Euler problems.
 | Problem 12  | Highly Divisible Triangular Number | | |
 | Problem 13  | Large Sum | | |
 | Problem 14  | Longest Collatz Sequence | 837799 | [Solution](https://github.com/timothymahajan/Project-Euler/blob/master/014/Longest_Collatz_Sequence.py) |
-| Problem 19  | Counting Sundays | 171 | | |
