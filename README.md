@@ -1,4 +1,4 @@
-# Project-Euler
+# Project Euler
 Solutions to project Euler problems.
 
 | Problem  | Name | Answer | Python |
